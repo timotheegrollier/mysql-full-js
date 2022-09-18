@@ -1,0 +1,18 @@
+#navbar{
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    nav{
+    width: 80%;
+
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+}

@@ -1,0 +1,32 @@
+#List{
+  background-color: #282c34;
+  height: 100vh;
+h1{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+}
+
+#languages{
+    margin-top: 20px;
+    .languages-list{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow-y: scroll;
+        li{
+            text-align: center;
+            color: aliceblue;
+        }
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+}
